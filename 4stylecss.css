@@ -1,0 +1,19 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  color: tomato;
+  font-size: 32px;
+}
+
+/*Este item pega h1 e a */
+h1,
+a {
+  color: aliceblue;
+}
+/* Este item vai pegar todo a que estiver dentro de p */
+p a {
+  color: aqua;
+}
